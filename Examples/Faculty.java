@@ -1,3 +1,5 @@
+package Examples;
+
 public class Faculty extends Employee {
     public static void main(String[] args) {
         new Faculty();
@@ -21,6 +23,6 @@ class Employee extends Person{
 
 class Person{
     public Person(){
-        System.out.println("(1) Performs Person's tasks");
+        System.out.println("(1) Performs Examples.Person's tasks");
     }
 }
